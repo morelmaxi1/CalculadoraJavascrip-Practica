@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Estilo.css" />
+    <script src="Calculadora.js" type="text/javascript"></script>
+    
+    <script src="index .js" type="text/javascript" defer></script>
+    <script src="Display.js" type="text/javascript"></script>
+
+
+    <title>CalculadoraMaxi</title>
+  </head>
+
+  <body class="body">
+    <div class="conteiner">
+      <div class="calculadora">
+        <div class="display">
+          <div id="valor-anterior"></div>
+          <div id="valor-actual"></div>
+        </div>
+
+        <button class="col-2" onclick="display.borrarTodo()">C</button>
+        <button onclick="display.borrar()">AC</button>
+        <button class="operadores">.</button>
+        <button class="operadores" value="multiplicar">*</button>
+        <button class="numeros">1</button>
+        <button class="numeros">2</button>
+        <button class="numeros">3</button>
+        <button class="operadores" value="dividir">:</button>
+        <button class="numeros">4</button>
+        <button class="numeros">5</button>
+        <button class="numeros">6</button>
+        <button class="operadores" value="sumar">+</button>
+        <button class="numeros">7</button>
+        <button class="numeros">8</button>
+        <button class="numeros">9</button>
+        <button class="operadores" value="restar">-</button>
+        <button class="numeros">0</button>
+        <button class="numeros">,</button>
+        <button onclick="display.borrar()">x</button>
+        <button class="operadores"  value="igual">=</button>
+
+        <div></div>
+      </div>
+    </div>
+  </body>
+</html>
